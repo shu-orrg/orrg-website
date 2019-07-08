@@ -1,12 +1,7 @@
 ---
-title: "Example Blog Post"
-description: "An example blog post"
-date: 2018-12-27T21:09:45+01:00
-publishDate: 2018-12-27T21:09:45+01:00
-author: "NDH"
-images: []
-draft: false
-tags: [ORRG, Outdoors, Sheffield]
+title: Example Blog Post
+date: 2018-12-27T20:09:45.000Z
+thumbnail: /static/images/uploads/86_black_large-compressor.png
 ---
 
 ## Example Blog Post
