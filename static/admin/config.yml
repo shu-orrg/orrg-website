@@ -4,7 +4,6 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
 collections:
   - name: "posts"    # Used in routes, e.g., /admin/collections/blog
     label: "Posts"   # Used in the UI
@@ -14,5 +13,5 @@ collections:
     fields:  # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: "false"}
       - {label: "Body", name: "body", widget: "markdown"}
