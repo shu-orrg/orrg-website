@@ -1,0 +1,3 @@
+[submodule "themes/hugo-terrassa-theme"]
+	path = themes/hugo-terrassa-theme
+	url = https://github.com/shu-orrg/hugo-terrassa-theme.git
