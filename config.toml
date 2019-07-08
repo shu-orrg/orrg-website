@@ -1,0 +1,44 @@
+baseURL = "https://master--awesome-knuth-a39ded.netlify.com/"
+languageCode = "en-gb"
+
+baseurl = "/"           # The base URL of your Hugo site
+title = "The Outdoor Recreation Research Group"     # The title of your Hugo site
+author = "ORRG"   # The author name
+# googleAnalytics = ""    # Your Google Analytics tracking ID
+enableRobotsTXT = true
+language = "en-GB"
+paginate = 7            # The numbers of posts per page
+theme = "hugo-terrassa-theme"      # Your Hugo theme
+
+[params]
+    description = "A New Home For Expertise in Outdoor Recreation"
+    favicon = "favicon.ico"
+    logo = ""
+
+[params.separator]
+    show = true
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.social]
+    ## twitter = "https://twitter.com/orrg"
+    facebook = "https://facebook.com/orrg"
+    ## github = "https://github.com/shu-orrg"
+    instagram = "https://instagram.com/orrg"
+    linkedin = "https://linkedin.com/orrg"
+    youtube = "https://youtube.com/orrg"
+[params.copy] # Copyright
+    copy = "" # Empty for default content
