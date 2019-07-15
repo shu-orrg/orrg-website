@@ -1,44 +1,30 @@
 baseURL = "https://master--awesome-knuth-a39ded.netlify.com/"
 languageCode = "en-gb"
-
-baseurl = "/"           # The base URL of your Hugo site
-title = "The Outdoor Recreation Research Group"     # The title of your Hugo site
-author = "ORRG"   # The author name
-# googleAnalytics = ""    # Your Google Analytics tracking ID
-enableRobotsTXT = true
-language = "en-GB"
-paginate = 7            # The numbers of posts per page
-theme = "hugo-terrassa-theme"      # Your Hugo theme
+title = "The Outdoor Recreation Research Group"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "ORRG"
+## disqusShortname = "shortDisquis"
+## googleAnalytics = "UA-1XXXXXXX1-X"
 
 [params]
-    description = "A New Home For Expertise in Outdoor Recreation"
-    favicon = "favicon.ico"
-    logo = ""
+  # logo = "/images/uploads/86_black_large-compressor.png"
+  description ="The Outdoor Recreation Research Group"
 
-[params.separator]
-    show = true
-
-[params.cta] # Call To Action
-    show = true
-    cta = "Contact"
-    link = "contact" # Relative URL
-
-[params.fa] # Font Awesome options
-    version = "5.7.2"
-    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-
-[params.posts]
-    showAuthor = true
-    showDate = true
-    showTags = true
-    dateFormat = "Monday, Jan, 2006"
+[params.index]
+  picture = "/images/mtb201-zps1e1bc12e-1-Copy-13-1392669635.jpg"
+  title = ""
+  subtitle = ""
+  mdtext = '''
+'''
+  alertbar = false
 
 [params.social]
-    ## twitter = "https://twitter.com/orrg"
-    facebook = "https://facebook.com/orrg"
-    ## github = "https://github.com/shu-orrg"
-    instagram = "https://instagram.com/orrg"
-    linkedin = "https://linkedin.com/orrg"
-    youtube = "https://youtube.com/orrg"
-[params.copy] # Copyright
-    copy = "" # Empty for default content
+  linkedin = "<username>"
+  twitter = "<username>"
+  instagram = "<username>"
+
+[params.author]
+  name = "NDR"
+  thumbnail = "/images/uploads/86_black_large-compressor.png"
+  description = "Research Biker"
