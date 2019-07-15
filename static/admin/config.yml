@@ -24,9 +24,9 @@ collections:
         name: "members"
         fields:
           - {label: Body, name: body, widget: "markdown"}
-  - name: "posts"    # Used in routes, e.g., /admin/collections/blog
+  - name: "blog"    # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts"   # Used in the UI
-    folder: "content/posts"  # The path to the folder where posts are stored
+    folder: "content/blog"  # The path to the folder where posts are stored
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"   # Filename template
     fields:  # The fields for each document, usually in front matter
