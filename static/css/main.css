@@ -357,6 +357,7 @@ blockquote {
 
 .social {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .social i.fa {
@@ -679,7 +680,7 @@ img {
     font-size: 0.93rem;
     padding: 15px 0 0 0;
     text-align: center;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     color: #999;
     border-top: 1px solid #ddd;
 }
@@ -716,46 +717,6 @@ iframe {
 .transpdark {
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
-}
-
-@media (min-width:768px) {
-    .jumbotron.fortags {
-        margin-bottom: -50px;
-        margin-top: 3rem;
-        padding: 0;
-        height: 350px;
-        border-radius: 0;
-        background-image: url(/images/jumbotron.jpg);
-        background-size: cover;
-    }
-
-    .jumbotron.fortags .col-md-4 {
-        background: rgba(0, 0, 0, 0.75);
-        color: #fff;
-    }
-
-    .jumbotron.fortags .row {
-        margin: 0;
-    }
-}
-
-.jumbotron.fortags {
-    margin-top: 3rem;
-    padding: 0;
-    border-radius: 0;
-    background-image: url(/images/jumbotron.jpg);
-    background-size: cover;
-}
-
-.jumbotron.fortags a {
-    padding: 5px 10px 7px;
-    background: #222;
-    border-radius: 30px;
-    color: #fff;
-    font-weight: 500;
-    text-transform: lowercase;
-    font-size: 0.8rem;
-    display: inline-block;
 }
 
 .layout-page .jumbotron.fortags {
@@ -824,4 +785,9 @@ iframe {
 .index-image{
     margin-top:20px;
     width: 400px;
+}
+
+.copyright {
+    display: inline-block;
+    margin-bottom: 1rem;
 }
