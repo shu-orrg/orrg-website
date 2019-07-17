@@ -1,0 +1,27 @@
+baseURL = ""
+title = "The Outdoor Recreation Research Group"
+summaryLength = 25
+copyright = "The Outdoor Recreation Research Group"
+## googleAnalytics = "UA-1XXXXXXX1-X"
+
+[outputFormats]
+[outputFormats.VCF]
+  mediaType = "text/vcard"
+  isPlainText = true
+  permalinkable = true
+
+[mediaTypes]
+[mediaTypes."text/vcard"]
+suffixes = ["vcf"]
+
+[params]
+  logo = "/images/orrg_logo.png"
+  description ="The Outdoor Recreation Research Group"
+
+[params.index]
+  picture = "/images/mtb201-zps1e1bc12e-1-Copy-13-1392669635.jpg"
+
+[params.author]
+  name = "NDR"
+  thumbnail = "/images/uploads/86_black_large-compressor.png"
+  description = "Research Biker"

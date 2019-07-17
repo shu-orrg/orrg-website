@@ -1,0 +1,52 @@
+---
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/home.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+      - file: "content/about.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/network.md"
+        label: "Network Page"
+        name: "network"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Content", name: "body", widget: "markdown"}
+  - name: "blog"    # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts"   # Used in the UI
+    folder: "content/blog"  # The path to the folder where posts are stored
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"   # Filename template
+    fields:  # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "members"
+    label: "Members"
+    folder: "content/members"
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Descripion, name: descripion, widget: string}
+      - {label: "Content", name: "body", widget: "markdown"}
