@@ -4,8 +4,10 @@
 
 {{ define "main" }}
     <div class="mainheading">
+      {{ with .Site.GetPage "/network" }}
       <h1 class="sitetitle">{{ .Title }}</h1>
       {{ .Content }}
+      {{ end }}
     </div>
     <div class="main-content">
         <!-- Posts Index
