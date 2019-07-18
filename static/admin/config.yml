@@ -40,13 +40,26 @@ collections:
     fields:  # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Image", name: "thumbnail", widget: "image", required: false}
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "members"
+        searchFields: ["name"]
+        valueField: "name"
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "members"
     label: "Members"
     folder: "content/members"
     create: true
+    identifier_field: name
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Descripion, name: descripion, widget: string}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Department", name: "department", widget: "string"}
+      - {label: "Disciplines", name: "disciplines", widget: "list"}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", default: "/images/person1.png", required: false}
+      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
       - {label: "Content", name: "body", widget: "markdown"}
