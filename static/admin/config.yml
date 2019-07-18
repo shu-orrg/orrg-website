@@ -46,6 +46,7 @@ collections:
         collection: "members"
         searchFields: ["name"]
         valueField: "name"
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "members"
     label: "Members"
