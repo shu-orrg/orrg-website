@@ -1,6 +1,6 @@
 ---
 title: Return of the Blog Post
-date: 2019-07-25T16:54:47.302Z
+date: 2019-07-18T16:54:47.302Z
 image: /images/uploads/86_black_large-compressor.png
 author: Maxine Gregory
 tags:
