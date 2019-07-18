@@ -1,12 +1,6 @@
 ---
-title: "Collaboration"
-description: ""
-images: []
-draft: false
-menu: main
-weight: 30
-type: "static"
-layout: "default"
+title: Collaboration
+description: Collaboration
 ---
 
 ## Call to Collaboration
