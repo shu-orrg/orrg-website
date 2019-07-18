@@ -1,6 +1,5 @@
 ---
-headless: true
-title: "Network"
+title: Network BLIM
 ---
 
 ### Who are we?
