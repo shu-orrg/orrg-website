@@ -3,8 +3,6 @@ title: "About"
 description: "What is the Outdoor Recreation Research Group?"
 image:
 draft: false
-menu: main
-weight: 10
 type: "static"
 layout: "default"
 ---

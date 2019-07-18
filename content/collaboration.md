@@ -1,8 +1,6 @@
 ---
 title: "Collaboration"
 description: ""
-menu: main
-weight: 30
 type: "static"
 layout: "default"
 ---

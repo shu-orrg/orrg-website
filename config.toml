@@ -22,7 +22,24 @@ suffixes = ["vcf"]
 [params.index]
   picture = "/images/mtb201-zps1e1bc12e-1-Copy-13-1392669635.jpg"
 
-[params.author]
-  name = "NDR"
-  thumbnail = "/images/uploads/86_black_large-compressor.png"
-  description = "Research Biker"
+[menu]
+[[menu.main]]
+  identifier = "About"
+  name = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  identifier = "Network"
+  name = "Network"
+  url = "/members/"
+  weight = 20
+[[menu.main]]
+  identifier = "Collaboration"
+  name = "Collaboration"
+  url = "/collaboration/"
+  weight = 30
+[[menu.main]]
+  identifier = "Blog"
+  name = "Blog"
+  url = "/Blog/"
+  weight = 40
