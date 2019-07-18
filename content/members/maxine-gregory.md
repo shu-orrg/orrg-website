@@ -6,6 +6,7 @@ disciplines:
   - Sport
   - Physical Activity
   - Social Impact
+  - Things
 contact: m.gregory@shu.ac.uk
 image: /images/person1.png
 weight: 10
