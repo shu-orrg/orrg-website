@@ -4,6 +4,7 @@ description: ""
 images: []
 draft: false
 menu: main
+headless: true
 weight: 20
 type: "members"
 ---

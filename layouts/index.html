@@ -18,7 +18,7 @@
             <div class="row listrecent">
               {{ range first 12 (where .Pages "Section" "blog") }}
                     {{- partial "list-partials/postbox.html" . -}}
-                {{end}}
+              {{end}}
             </div>
         </section>
     </div>

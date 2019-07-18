@@ -9,13 +9,6 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/home.md"
-        label: "Home Page"
-        name: "home"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {label: "Image", name: "image", widget: "image", required: false}
       - file: "content/about.md"
         label: "About Page"
         name: "about"
@@ -24,14 +17,7 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Content", name: "body", widget: "markdown"}
-      - file: "content/network.md"
-        label: "Network Page"
-        name: "network"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {label: "Image", name: "image", widget: "image", required: false}
-          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Weight", name: "weight", widget: "hidden", default: 10}
       - file: "content/collaboration.md"
         label: "Collaboration Page"
         name: "collaboration"
@@ -40,6 +26,7 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Weight", name: "weight", widget: "hidden", default: 30}
   - name: "blog"    # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts"   # Used in the UI
     folder: "content/blog"  # The path to the folder where posts are stored

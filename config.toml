@@ -9,6 +9,7 @@ copyright = "The Outdoor Recreation Research Group"
   mediaType = "text/vcard"
   isPlainText = true
   permalinkable = true
+  baseName = "vcard"
 
 [mediaTypes]
 [mediaTypes."text/vcard"]

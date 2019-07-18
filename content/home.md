@@ -1,5 +1,0 @@
----
-title: ""
-descripion: ""
-image: ""
----
