@@ -1,5 +1,5 @@
 ---
-title: Network BLIM
+title: Network
 ---
 
 ### Who are we?
