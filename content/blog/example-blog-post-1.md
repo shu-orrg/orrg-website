@@ -2,7 +2,7 @@
 title: Example Blog Post
 date: 2018-12-27T20:09:45.000Z
 image: /images/uploads/86_black_large-compressor.png
-author: "TSTEST"
+author: "Nick Hamilton"
 ---
 
 ## Example Blog Post
