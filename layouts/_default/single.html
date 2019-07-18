@@ -5,18 +5,15 @@
 {{ define "main" }}
     {{- partial "_shared/title.html" . -}}
     <div class="main-content">
-        <!-- Begin Article
-        ================================================== -->
         <div class="container">
             <div class="row">
-              <!-- Post Share -->
+
                 <div class="col-md-2 pl-0">
                     {{- partial "_shared/social.html" . -}}
                 </div>
-                <!-- Post -->
+
                 <div class="col-md-9 flex-first flex-md-unordered">
                     <div class="mainheading">
-                        <!-- Author Box -->
                       {{ $users    := where .Site.Pages "Type" "members" }}
                       {{ $username := where $users "Params.name" .Params.author }}
                       {{ range $users | intersect $username }}
@@ -67,9 +64,6 @@
                 <!-- End Post -->
             </div>
         </div>
-        <!-- End Article
-        ================================================== -->
-
     </div>
     {{ end }}
 
