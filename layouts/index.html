@@ -5,10 +5,8 @@
 {{ define "main" }}
     <div class="main-content">
         <header class="text-center">
-            {{ with .Site.Params.index.picture }}
-                <img src="{{ . | urlize | relURL }}" class="rounded text-center index-image">
-            {{ end }}
-            <h1 class="index-title">{{ .Site.Params.index.title }}</h1>
+          <div class="index-image"></div>
+          <h1 class="index-title">{{ .Site.Params.index.title }}</h1>
         </header>
 
         <section>

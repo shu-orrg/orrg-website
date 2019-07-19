@@ -781,11 +781,13 @@ iframe {
     margin-top:20px;
     color: rgba(0,0,0,.44);
 }
-.index-image{
-    margin-top:20px;
-    width: 400px;
-}
 
+.index-image {
+    margin-top:20px;
+    height: 300px;
+    background: #e0eaec url(/images/mtb201-zps1e1bc12e-1-copy-13-1392669635.jpg) no-repeat center center / auto 100%;
+    background-size: cover;
+}
 .copyright {
     display: inline-block;
     margin-bottom: 1rem;
