@@ -3,6 +3,7 @@ title = "The Outdoor Recreation Research Group"
 summaryLength = 25
 copyright = "The Outdoor Recreation Research Group"
 ## googleAnalytics = "UA-1XXXXXXX1-X"
+enableRobotsTXT = true
 
 [outputFormats]
 [outputFormats.VCF]
