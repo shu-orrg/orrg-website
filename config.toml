@@ -19,6 +19,10 @@ suffixes = ["vcf"]
   logo = "/images/orrg_logo.png"
   description ="The Outdoor Recreation Research Group"
 
+[params.meta]
+  keywords = "Outdoor Recreation"
+  description ="The Outdoor Recreation Research Group"
+
 [params.index]
   picture = "/images/mtb201-zps1e1bc12e-1-Copy-13-1392669635.jpg"
 
