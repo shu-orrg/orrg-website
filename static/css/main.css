@@ -784,8 +784,8 @@ iframe {
 
 .index-image {
     margin-top:20px;
-    height: 300px;
-    background: #e0eaec url(/images/mtb201-zps1e1bc12e-1-copy-13-1392669635.jpg) no-repeat center center / auto 100%;
+    height: 350px;
+    background: #e0eaec url(https://ucarecdn.com/721d3caa-8beb-4d91-92fa-0a88a07ac75d/-/scale_crop/1024x550/) no-repeat center / auto 100%;
     background-size: cover;
 }
 .copyright {
