@@ -77,6 +77,15 @@ section {
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.25;
+
+}
+
+.listfeaturedtag h4.card-text,
+.listrecent h4.card-text {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #666;
 }
 
 .wrapfooter {
