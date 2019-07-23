@@ -367,12 +367,6 @@ iframe {
     }
 }
 
-@media (max-width: 768px) {
-    .share {
-        margin-top: 30px;
-    }
-}
-
 .card .img-fluid {
     width: 100%;
 }
