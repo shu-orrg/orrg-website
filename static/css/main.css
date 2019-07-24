@@ -56,13 +56,6 @@ section {
     margin-bottom: 27px;
 }
 
-.section-title span {
-    border-bottom: 1px solid #000;
-    border-bottom: 1px solid rgba(0, 0, 0, .44);
-    display: inline-block;
-    margin-bottom: -1px;
-    padding-bottom: 20px;
-}
 
 @media (min-width:992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -427,7 +420,7 @@ iframe {
 
 .index-image {
     margin-top: 20px;
-    margin-bottom:100px;
+    margin-bottom: 50px;
     height: 350px;
     width: 100%;
     background: #e0eaec url(https://ucarecdn.com/721d3caa-8beb-4d91-92fa-0a88a07ac75d/-/scale_crop/1024x550/) no-repeat center / auto 100%;
