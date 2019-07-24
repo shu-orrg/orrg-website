@@ -140,8 +140,8 @@ section {
 }
 
 .mediumnavigation .form-inline .btn {
-    border-radius: 30px;
     border: 0;
+    border-radius: 30px;
     cursor: pointer;
     margin-left: -50px;
 }
@@ -284,26 +284,15 @@ h1,h2,h3,h4,h5,h6 {
 .article-post img.shadow {
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
     -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
-    box-shadow: 0px 0 10px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
 }
+
 .footer img {
-    max-height: 30px;
     margin-right: 5px;
+    max-height: 30px;
 }
 
-
-.article-post .h1,
-.article-post .h2,
-.article-post .h3,
-.article-post .h4,
-.article-post .h5,
-.article-post .h6,
-.article-post h1,
-.article-post h2,
-.article-post h3,
-.article-post h4,
-.article-post h5,
-.article-post h6 {
+.article-post {
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
@@ -377,16 +366,20 @@ iframe {
 
 @media (min-width: 768px) {
     .flex-md-unordered {
+        -ms-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
         -webkit-box-ordinal-group: 1;
-        -webkit-order: 1;
         -ms-flex-order: 1;
+        -webkit-order: 1;
         order: 1;
     }
 
     .flex-first {
+        -moz-box-ordinal-group: 0;
+        -ms-box-ordinal-group: 0;
         -webkit-box-ordinal-group: 0;
-        -webkit-order: 1;
         -ms-flex-order: 1;
+        -webkit-order: 1;
         order: 1;
     }
 }
@@ -400,32 +393,28 @@ iframe {
 }
 
 .social-icon{
+    color: #000;
     color: rgba(0,0,0,.44);
     font-size:1.5rem;
 }
 
 .index-title{
+    color: #000;
     color: rgba(0,0,0,.84);
     margin-top:20px;
 }
 
 .index-sub{
+    color: #000;
     color: rgba(0,0,0,.54);
 }
 
 .index-text{
-    margin-top:20px;
+    color: #000;
     color: rgba(0,0,0,.44);
+    margin-top:20px;
 }
 
-.index-image {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    height: 350px;
-    width: 100%;
-    background: #e0eaec url(https://ucarecdn.com/721d3caa-8beb-4d91-92fa-0a88a07ac75d/-/scale_crop/1024x550/) no-repeat center / auto 100%;
-    background-size: cover;
-}
 .copyright {
     display: inline-block;
     margin-bottom: 1rem;
@@ -435,19 +424,19 @@ img {
 }
 
 .bottompagination span.navigation {
+    border-top: 1px solid #ddd;
+    color: #999;
     display: block;
     font-size: 0.93rem;
+    margin-bottom: 1rem;
     padding: 15px 0 0 0;
     text-align: center;
-    margin-bottom: 1rem;
-    color: #999;
-    border-top: 1px solid #ddd;
 }
 
 .pointerup {
+    font-size: 30px;
     margin-bottom: -17px;
     margin-left: 49%;
-    font-size: 30px;
 }
 
 .pointerup i.fa {
@@ -478,24 +467,30 @@ iframe {
 }
 
 .flex-first {
+    -ms-box-ordinal-group: 0;
+    -moz-box-ordinal-group: 0;
     -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
     -ms-flex-order: -1;
+    -webkit-order: -1;
     order: -1;
 }
 
 @media (min-width: 768px) {
     .flex-md-unordered {
+        -ms-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
         -webkit-box-ordinal-group: 1;
-        -webkit-order: 1;
         -ms-flex-order: 1;
+        -webkit-order: 1;
         order: 1;
     }
 
     .flex-first {
+        -ms-box-ordinal-group: 0;
+        -moz-box-ordinal-group: 0;
         -webkit-box-ordinal-group: 0;
-        -webkit-order: 1;
         -ms-flex-order: 1;
+        -webkit-order: 1;
         order: 1;
     }
 }
@@ -509,31 +504,37 @@ iframe {
 }
 
 .social-icon{
+    color: #000;
     color: rgba(0,0,0,.44);
     font-size:1.5rem;
 }
 
 .index-title{
+    color: #000;
     color: rgba(0,0,0,.84);
     margin-top:20px;
 }
 
 .index-sub{
+    color: #000;
     color: rgba(0,0,0,.54);
 }
 
 .index-text{
-    margin-top:20px;
+    color: #000;
     color: rgba(0,0,0,.44);
+    margin-top:20px;
 }
 
 .index-image {
-    margin-top:20px;
-    height: 350px;
-    width: 100%;
     background: #e0eaec url(https://ucarecdn.com/721d3caa-8beb-4d91-92fa-0a88a07ac75d/-/scale_crop/1024x550/) no-repeat center / auto 100%;
     background-size: cover;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 100%;
 }
+
 .copyright {
     display: inline-block;
     margin-bottom: 1rem;
