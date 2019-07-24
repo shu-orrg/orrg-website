@@ -11,7 +11,7 @@ economists, social scientists, ecologists, engineers and behavioural change
 and tourism experts, we are the home of expertise in the way we play outdoors
 – and the important economy behind it.
 
-![TYLER DURDEN](https://ucarecdn.com/4a7cc153-d9df-4a89-97df-8780ebeafbd7/ "Things")
+![TYLER DURDEN](https://ucarecdn.com/4a7cc153-d9df-4a89-97df-8780ebeafbd7/-/crop/475x193/0,203/-/preview/ "Things")
 
 ## What do we do?
 
