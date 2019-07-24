@@ -21,6 +21,8 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Type", name: "type", widget: "hidden", default: "static"}
       - file: "content/collaboration.md"
         label: "Collaboration Page"
         name: "collaboration"
@@ -29,6 +31,8 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Type", name: "type", widget: "hidden", default: "static"}
       - file: "content/network/index.md"
         label: "Network Page"
         name: "network"
