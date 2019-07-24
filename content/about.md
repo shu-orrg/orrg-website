@@ -1,13 +1,9 @@
 ---
-title: "About"
-description: "What is the Outdoor Recreation Research Group?"
-image:
-draft: false
-type: "static"
-layout: "default"
+title: About
+description: What is the Outdoor Recreation Research Group?
+layout: default
+type: static
 ---
-
-## What is the Outdoor Recreation Research Group?
 We are the first cross-disciplinary research group in the UK looking at the
 growing sector of outdoor recreation from all perspectives. Bringing together
 economists, social scientists, ecologists, engineers and behavioural change
@@ -15,19 +11,22 @@ and tourism experts, we are the home of expertise in the way we play outdoors
 – and the important economy behind it.
 
 ## What do we do?
+
 We work with local authorities, national bodies, recreation providers, sport
 companies and anybody else with an interest in outdoor recreation to provide
 evidence, expertise and consultancy.
 
 ## What can ORRG deliver?
+
 | For                                 | Service                                                                                                                                                                                                |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | National strategic organisations    | Strengthen the evidence base, Provide robust methodology, expert advice and data in a coordinated way. Advise, design and implement the latest technologies for monitoring and promoting participation |
 | Land owners / managers / businesses | A coordinated advice service considering environmental, economic, social & local issues                                                                                                                |
 | Local organisations                 | Support for recreational site development, conference support, developing a local evidence base, support for business development / funding bids.                                                      |
 | Outdoor Recreation Sector           | High level research and consultancy, product design and development, economic and social impacts, dissemination and learning. European collaboration / funding.                                        |
 
 ## Work we have undertaken
+
 Sheffield’s Outdoor Economy and The Outdoor City
 In 2014/15, ORRG were commissioned by Sheffield City Council to report on the
 size, scale, and scope of Sheffield's 'Outdoor Economy'. The strength of the
@@ -39,6 +38,7 @@ Rob Copeland from ORRG have supported this development since 2015 through
 their roles on the project steering group.
 
 ### Developing Active Environments
+
 Since 2016, ORRG has been working with and supporting Harworth Estates to
 develop their flagship Waverley site using an 'Active Environment' concept.
 The innovative ORRG project has brought together specialists in community
