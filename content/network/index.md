@@ -1,6 +1,5 @@
 ---
-headless: true
-title: "Network"
+title: Members
 ---
 
 ### Who are we?
