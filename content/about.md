@@ -1,10 +1,7 @@
 ---
-title: "About"
-description: "What is the Outdoor Recreation Research Group?"
-image:
-draft: false
-type: "static"
-layout: "default"
+title: About
+description: What is the Outdoor Recreation Research Group?
+image: 'https://ucarecdn.com/e359b125-58a7-4afb-abae-6f242d4933f9/'
 ---
 
 ## What is the Outdoor Recreation Research Group?
