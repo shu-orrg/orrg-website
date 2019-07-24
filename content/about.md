@@ -1,8 +1,7 @@
 ---
 title: About
 description: What is the Outdoor Recreation Research Group?
-image: >-
-  https://ucarecdn.com/12f0077c-426b-46a6-968f-d52cefbcf5e1/-/crop/768x230/0,202/-/preview/
+image: ''
 layout: default
 type: static
 ---
