@@ -4,7 +4,7 @@
         <div class="maxthumb">
             <a href="{{ .URL }}">
                 {{with .Params.image}}
-                    <img class="card-img-top" src="{{ . | urlize | relURL }}" alt="A thumbnail image">
+                    <img class="card-img-top" src="{{ . }}" alt="A thumbnail image">
                 {{end}}
             </a>
         </div>

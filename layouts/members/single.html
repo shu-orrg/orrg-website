@@ -22,11 +22,9 @@
         <div class="mainheading">
           <div class="row">
             <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
-              <!-- Post Featured Image -->
               {{with .Params.image}}
-              <img class="featured-image img-fluid" src="{{ . | urlize | relURL }}" alt="thumbnail for this post">
+              <img class="featured-image img-fluid" src="{{ . }}" alt="thumbnail for this post">
               {{end}}
-              <!-- End Featured Image -->
             </div>
             <div class="col-xs-12 col-md-9 col-lg-10 text-md-left md-nopad-left">
               <div class="author-meta">
