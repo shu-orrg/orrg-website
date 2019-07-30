@@ -77,8 +77,10 @@ collections:
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Department", name: "department", widget: "string"}
       - {label: "Disciplines", name: "disciplines", widget: "list"}
-      - {label: "Contact", name: "contact", widget: "string"}
       - {label: "Image", name: "image", widget: "image", default: "/images/person1.png", required: false}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
       - {label: "Weight", name: "weight", widget: "string"}
       - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
       - {label: "Content", name: "body", widget: "markdown"}
@@ -92,8 +94,10 @@ collections:
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Department", name: "department", widget: "string"}
       - {label: "Disciplines", name: "disciplines", widget: "list"}
-      - {label: "Contact", name: "contact", widget: "string"}
       - {label: "Image", name: "image", widget: "image", default: "/images/person1.png", required: false}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
       - {label: "Weight", name: "weight", widget: "string"}
       - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
       - {label: "Content", name: "body", widget: "markdown"}
