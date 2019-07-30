@@ -34,17 +34,22 @@ suffixes = ["vcf"]
   url = "/about/"
   weight = 10
 [[menu.main]]
-  identifier = "Network"
-  name = "Network"
+  identifier = "Members"
+  name = "Members"
   url = "/members/"
   weight = 20
+[[menu.main]]
+  identifier = "Network"
+  name = "Network"
+  url = "/network/"
+  weight = 30
 [[menu.main]]
   identifier = "Collaboration"
   name = "Collaboration"
   url = "/collaboration/"
-  weight = 30
+  weight = 40
 [[menu.main]]
   identifier = "Blog"
   name = "Blog"
   url = "/Blog/"
-  weight = 40
+  weight = 50

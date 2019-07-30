@@ -1,0 +1,38 @@
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 pl-0">
+        {{- partial "_shared/social.html" . -}}
+      </div>
+      <div class="col-md-9 flex-first flex-md-unordered">
+        <div class="mainheading">
+          <div class="row">
+            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+              {{with .Params.image}}
+              <img class="featured-image img-fluid" src="{{ . }}" alt="thumbnail for this post">
+              {{end}}
+            </div>
+            <div class="col-xs-12 col-md-9 col-lg-10 text-md-left md-nopad-left">
+              <div class="author-meta">
+                <span>Role: </span>
+                <span class="role">{{ .Params.Role }}</span>
+              </div>
+              <div class="author-meta">
+                <span>Disciplines: </span>{{ range .Params.Disciplines }}<span class="badge badge-secondary">{{ . }}</Span>
+                {{ end }}
+              </Div>
+              <Br />
+
+              {{ with  .OutputFormats.Get "VCF" -}}
+              <a href="{{ .Permalink }}"><i class="far fa-address-card social-icon"></i></a>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+
+        <div class="article-post">
+          {{ .Content}}
+        </div>
+
+      </div>
+    </div>
+  </div>
