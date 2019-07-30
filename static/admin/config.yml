@@ -39,6 +39,11 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/homepage/index.md"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
   - name: "blog"    # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts"   # Used in the UI
     folder: "content/blog"  # The path to the folder where posts are stored

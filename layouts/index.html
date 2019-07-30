@@ -9,6 +9,12 @@
           <h1 class="index-title">{{ .Site.Params.index.title }}</h1>
         </header>
 
+        <div class="mainheading">
+          {{ with .Site.GetPage "/homepage" }}
+          {{ .Content }}
+          {{ end }}
+        </div>
+
         <section>
             <div class="section-title">
                 <h2><span>Recent Posts</span></h2>
