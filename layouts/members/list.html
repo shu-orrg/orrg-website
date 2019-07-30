@@ -4,8 +4,10 @@
 
 {{ define "main" }}
     <div class="mainheading">
+      {{ with .Site.GetPage "/members_bundle" }}
       <h1 class="sitetitle">{{ .Title }}</h1>
       {{ .Content }}
+      {{ end }}
     </div>
     <div class="main-content">
         <section class="members">

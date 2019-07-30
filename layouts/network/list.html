@@ -4,13 +4,15 @@
 
 {{ define "main" }}
     <div class="mainheading">
+      {{ with .Site.GetPage "/network_bundle" }}
       <h1 class="sitetitle">{{ .Title }}</h1>
       {{ .Content }}
+      {{ end }}
     </div>
     <div class="main-content">
         <section class="members">
             <div class="section-title">
-                <h2><span>Network Details</span></h2>
+                <h2><span>Members Details</span></h2>
             </div>
             <div class="row listrecent">
               {{ $post_paginator := .Paginate (.Pages) 12 }}
