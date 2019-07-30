@@ -8,7 +8,7 @@ image: /images/person1.png
 contact: matthew@mexico86.co.uk
 twitter: mxco86
 linkedin: matthew-ryall
-weight: 10
+weight: '15'
 outputs:
   - HTML
   - VCF
