@@ -32,7 +32,9 @@
 
 
         {{- partial "list-partials/pagination.html" $post_paginator -}}
-        {{- partial "_shared/social.html" . -}}
+        <div class="social">
+          {{- partial "_shared/social.html" . -}}
+        </div>
     </div>
 {{ end }}
 

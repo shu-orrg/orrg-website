@@ -1,11 +1,9 @@
-<div class="social">
-  {{ with .Params.Linkedin }}
-  <a href="https://linkedin.com/in/{{ . }}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
-  {{ end }}
-  {{ with .Params.Twitter }}
-  <a href="https://www.twitter.com/{{ . }}"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
-  {{ end }}
-  {{ with .Params.Contact }}
-  <a href="mailto:{{ . }}"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
-  {{ end }}
-</div>
+{{ with .Params.Linkedin }}
+<a href="https://linkedin.com/in/{{ . }}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Params.Twitter }}
+<a href="https://www.twitter.com/{{ . }}"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Params.Contact }}
+<a href="mailto:{{ . }}"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+{{ end }}
