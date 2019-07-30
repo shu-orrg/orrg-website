@@ -10,20 +10,13 @@
                 <div class="col-md-2 pl-0">
                     {{- partial "_shared/social.html" . -}}
                 </div>
+
                 <div class="col-md-9 flex-first flex-md-unordered">
                     <div class="article-post">
                         {{ .Content}}
                     </div>
-                    <div class="after-post-tags">
-                        <ul class="tags">
-                        {{ range .Params.tags }}
-                        <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
                 </div>
+
             </div>
         </div>
         {{- partial "list-partials/pagination.html" -}}

@@ -10,6 +10,18 @@
             <h2><span>Posts</span></h2>
           </div>
 
+          <div class="after-post-tags">
+            <ul class="tags">
+              {{ range $key, $value := .Site.Taxonomies.tags }}
+	      <li><a href="/tags/{{ $key | urlize  }}">{{ $key | humanize }}</a></li>
+              {{ end }}
+              {{ range $key, $value := .Site.Taxonomies.categories }}
+	      <li><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }}</a></li>
+              {{ end }}
+
+            </ul>
+          </div>
+
           <div class="row listrecent">
             {{ $post_paginator := .Paginate (.Pages) 6 }}
             {{ range $post_paginator.Pages }}
@@ -18,17 +30,6 @@
           </div>
         </section>
 
-        <div class="after-post-tags">
-          <ul class="tags">
-            {{ range $key, $value := .Site.Taxonomies.tags }}
-	    <li><a href="/tags/{{ $key | urlize  }}">{{ $key | humanize }}</a></li>
-            {{ end }}
-            {{ range $key, $value := .Site.Taxonomies.categories }}
-	    <li><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }}</a></li>
-            {{ end }}
-
-          </ul>
-        </div>
 
         {{- partial "list-partials/pagination.html" $post_paginator -}}
         {{- partial "_shared/social.html" . -}}

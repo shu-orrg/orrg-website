@@ -34,34 +34,28 @@
                           </span>
                         </div>
                       </div>
-                      <!-- Post Title -->
+
                       <h1 class="posttitle">{{ .Title }}</h1>
                     </div>
+                    <div class="after-post-tags">
+                      <ul class="tags">
+                        {{ range .Params.tags }}
+                        <li>
+                          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        </li>
+                        {{ end }}
+                      </ul>
+                    </div>
 
-                    <!-- Post Featured Image -->
                     {{with .Params.image}}
                         <img class="featured-image img-fluid" src="{{ . }}" alt="thumbnail for this post">
                     {{end}}
-                    <!-- End Featured Image -->
 
-                    <!-- Post Content -->
                     <div class="article-post">
                         {{ .Content}}
                     </div>
 
-                    <!-- Post Categories -->
-                    <div class="after-post-tags">
-                        <ul class="tags">
-                        {{ range .Params.tags }}
-                        <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
-                    <!-- End Categories -->
                 </div>
-                <!-- End Post -->
             </div>
         </div>
     </div>

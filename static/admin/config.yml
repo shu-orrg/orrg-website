@@ -40,7 +40,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
       - file: "content/homepage/index.md"
-        label: "Home page"
+        label: "Home Page"
         name: "homepage"
         fields:
           - {label: "Content", name: "body", widget: "markdown"}
