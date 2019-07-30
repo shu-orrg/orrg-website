@@ -13,6 +13,11 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "content/homepage/index.md"
+        label: "Home Page"
+        name: "homepage"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
       - file: "content/about.md"
         label: "About Page"
         name: "about"
@@ -33,16 +38,17 @@ collections:
           - {label: "Content", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Type", name: "type", widget: "hidden", default: "static"}
-      - file: "content/network/index.md"
+      - file: "content/network_bundle/index.md"
         label: "Network Page"
         name: "network"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-      - file: "content/homepage/index.md"
-        label: "Home Page"
-        name: "homepage"
+      - file: "content/members_bundle/index.md"
+        label: "Members Page"
+        name: "members"
         fields:
+          - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
   - name: "blog"    # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts"   # Used in the UI
