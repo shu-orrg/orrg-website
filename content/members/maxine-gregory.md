@@ -1,10 +1,13 @@
 ---
-name: "Maxine Gregory"
-role: "Chair"
-department: "Sport Industry Research Centre (SIRC)"
-disciplines: ["Sport", "Physical Activity", "Social Impact"]
-contact: "m.gregory@shu.ac.uk"
-image: "/images/person1.png"
+name: Maxine Gregory
+role: Chair
+department: Sport Industry Research Centre (SIRC)
+disciplines:
+  - Sport
+  - Physical Activity
+  - Social Impact
+contact: m.gregory@shu.ac.uk
+image: 'https://ucarecdn.com/1285407a-ab99-4c61-9da7-7ca3915306b3/'
 weight: 10
 ---
 
