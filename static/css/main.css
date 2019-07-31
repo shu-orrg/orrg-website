@@ -93,17 +93,12 @@ section {
 
 .author-thumb {
     border-radius: 100%;
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 100px;
 }
 
 .post-top-meta {
     margin-bottom: 2rem;
-}
-
-.post-top-meta .author-thumb {
-    height: 72px;
-    width: 72px;
 }
 
 .post-top-meta span {
@@ -417,9 +412,6 @@ iframe {
 .copyright {
     display: inline-block;
     margin-bottom: 1rem;
-}
-img {
-    max-width: 100%;
 }
 
 .bottompagination span.navigation {
