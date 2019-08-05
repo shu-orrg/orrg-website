@@ -1,0 +1,21 @@
+{
+  "name": "Outdoor-Recreation-Research-Group",
+  "version": "1.0.0",
+  "description": "ORRG Website Build / Deploy",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:webpack && npm run build:hugo",
+    "build:hugo": "hugo",
+    "build:webpack": "NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {}
+}

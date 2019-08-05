@@ -522,10 +522,12 @@ iframe {
 }
 
 .index-image {
-    background: #e0eaec url(https://ucarecdn.com/721d3caa-8beb-4d91-92fa-0a88a07ac75d/-/scale_crop/1024x550/) no-repeat center / auto 100%;
-    background-size: cover;
     height: 350px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.index-image img {
+    height: 350px;
     width: 100%;
 }
 
