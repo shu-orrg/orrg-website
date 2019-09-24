@@ -32,3 +32,17 @@ collections:
   - name: "members"
     label: "Members"
     folder: "content/members"
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "hidden"}
+      - {label: "Role", name: "role", widget: "hidden"}
+      - {label: "Department", name: "department", widget: "hidden"}
+      - {label: "Disciplines", name: "disciplines", widget: "hidden"}
+      - {label: "Image", name: "image", widget: "hidden" }
+      - {label: "Contact", name: "contact", widget: "hidden"}
+      - {label: "Twitter", name: "twitter", widget: "hidden"}
+      - {label: "LinkedIn", name: "linkedin", widget: "hidden"}
+      - {label: "Website", name: "website", widget: "hidden"}
+      - {label: "Weight", name: "weight", widget: "hidden"}
+      - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
+      - {label: "Content", name: "body", widget: "hidden"}
