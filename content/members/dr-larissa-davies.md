@@ -2,7 +2,7 @@
 name: "Dr Larissa Davies"
 role: "Member"
 department: "Sport Industry Research Centre (SIRC)"
-disciplines: ["Sports and Regeneration", "Social Impact"]
+expertise: ["Sports and Regeneration", "Social Impact"]
 contact: "l.e.davies@shu.ac.uk"
 image: "/images/person1.png"
 weight: 60

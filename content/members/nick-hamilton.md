@@ -2,7 +2,7 @@
 name: Nick Hamilton
 role: Vice Chair
 department: Centre for Sports Engineering Research (CSER)
-disciplines:
+expertise:
   - Sports Engineering
 contact: n.hamilton@shu.ac.uk
 image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'

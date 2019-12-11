@@ -2,7 +2,7 @@
 name: "Professor Lynn Crowe"
 role: "Member"
 department: "Social Sciences and Humanities (SSH)"
-disciplines: ["Countryside Recreation"]
+expertise: ["Countryside Recreation"]
 contact: "l.crowe@shu.ac.uk"
 image: "/images/person1.png"
 weight: 20

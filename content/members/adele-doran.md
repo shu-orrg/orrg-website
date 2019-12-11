@@ -2,7 +2,7 @@
 name: "Adele Doran"
 role: "Member"
 department: "Sheffield Business School (SBS)"
-disciplines: ["Adventure Tourism"]
+expertise: ["Adventure Tourism"]
 contact: "a.doran@shu.ac.uk"
 image: "/images/person1.png"
 weight: 70

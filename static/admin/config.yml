@@ -72,7 +72,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Department", name: "department", widget: "string"}
-      - {label: "Disciplines", name: "disciplines", widget: "list"}
+      - {label: "Expertise", name: "expertise", widget: "list"}
       - {label: "Image", name: "image", widget: "image", default: "/images/person1.png", required: false}
       - {label: "Contact", name: "contact", widget: "string"}
       - {label: "Twitter", name: "twitter", widget: "string"}

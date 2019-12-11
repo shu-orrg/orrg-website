@@ -2,7 +2,7 @@
 name: "Professor Steve Haake"
 role: "Member"
 department: "Advanced Wellbeing Research Centre (AWRC)"
-disciplines: ["Sports Engineering"]
+expertise: ["Sports Engineering"]
 contact: "s.j.haake@shu.ac.uk"
 image: "/images/person1.png"
 weight: 40

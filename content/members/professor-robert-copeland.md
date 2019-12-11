@@ -2,7 +2,7 @@
 name: "Professor Robert Copeland"
 role: "Member"
 department: "Centre for Sport and Exercise Science (CSES)"
-disciplines: ["Sports Psychology"]
+expertise: ["Sports Psychology"]
 contact: "r.j.copeland@shu.ac.uk"
 image: "/images/person1.png"
 weight: 50

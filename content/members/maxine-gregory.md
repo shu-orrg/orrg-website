@@ -2,7 +2,7 @@
 name: Maxine Gregory
 role: Chair
 department: Sport Industry Research Centre (SIRC)
-disciplines:
+expertise:
   - Sport
   - Physical Activity
   - Social Impact

@@ -37,7 +37,7 @@ collections:
       - {label: "Name", name: "name", widget: "hidden"}
       - {label: "Role", name: "role", widget: "hidden"}
       - {label: "Department", name: "department", widget: "hidden"}
-      - {label: "Disciplines", name: "disciplines", widget: "hidden"}
+      - {label: "Expertise", name: "expertise", widget: "hidden"}
       - {label: "Image", name: "image", widget: "hidden" }
       - {label: "Contact", name: "contact", widget: "hidden"}
       - {label: "Twitter", name: "twitter", widget: "hidden"}
