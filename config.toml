@@ -39,11 +39,6 @@ suffixes = ["vcf"]
   url = "/members/"
   weight = 20
 [[menu.main]]
-  identifier = "Network"
-  name = "Network"
-  url = "/network/"
-  weight = 30
-[[menu.main]]
   identifier = "Collaboration"
   name = "Collaboration"
   url = "/collaboration/"
