@@ -8,9 +8,7 @@
     <div class="col-md-9 flex-first flex-md-unordered">
       <div class="mainheading">
         <div class="row">
-          <div
-            class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right"
-          >
+          <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
             {{with .Params.image}}
             <img
               class="author-thumb"
@@ -20,17 +18,26 @@
             {{end}}
           </div>
           <div class="col-xs-12 col-md-9 col-lg-10 text-md-left md-nopad-left">
-            <div class="author-meta">
-              <span>Role: </span>
-              <span class="role">{{ .Params.Role }}</span>
-            </div>
-            <div class="author-meta">
-              <span>Expertise: </span>{{ range .Params.expertise }}<span
-                class="badge badge-secondary"
-                >{{ . }}</span
-              >
-              {{ end }}
-            </div>
+            <dl>
+              <dt>
+                <span>Institution: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Institution }}</span>
+              </dd>
+              <dt>
+                <span>Department: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Department }}</span>
+              </dd>
+              <dt>
+                <span>Role: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Role }}</span>
+              </dd>
+            </dl>
           </div>
         </div>
       </div>

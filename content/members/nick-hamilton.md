@@ -1,10 +1,14 @@
 ---
 name: Nick Hamilton
-role: Vice Chair
+role: Principal Research Fellow
+institution: Sheffield Hallam University
 department: Centre for Sports Engineering Research (CSER)
 expertise:
   - Sports Engineering
 contact: n.hamilton@shu.ac.uk
+website: https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton
+twitter: nickerless
+linkedin: ndrhamilton
 image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'
 weight: 15
 outputs:

@@ -18,7 +18,7 @@
             <ul class="navbar-nav ml-auto">
                 {{ range .Site.Menus.main }}
                 <li class="nav-item {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a class="nav-link" href="{{ .URL }}">{{ .Name | title }}</a>
+                    <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
                 </li>
                 {{ end }}
             </ul>

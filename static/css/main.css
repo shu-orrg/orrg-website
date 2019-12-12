@@ -24,11 +24,6 @@ p {
     line-height: 1.84;
 }
 
-.role {
-    color: #333;
-    font-weight: bold;
-}
-
 .mediumnavigation {
     background: #FFF;
     background: rgba(255, 255, 255, .97);
@@ -114,13 +109,6 @@ article.post-top-meta {
 .post-top-meta .author-description {
     font-size: 0.95rem;
     margin-top: 5px;
-}
-
-.author-meta {
-    flex: 1 1 auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .mediumnavigation .form-control {
@@ -516,4 +504,26 @@ iframe {
 .copyright {
     display: inline-block;
     margin-bottom: 1rem;
+}
+
+dl {
+	border-bottom: 1px solid #999;
+	float: left;
+	padding: 0;
+}
+
+dt {
+	border-top: 1px solid #999;
+	clear: left;
+	float: left;
+	font-weight: bold;
+	margin: 5;
+	width: 30%;
+}
+
+dd {
+	border-top: 1px solid #999;
+	float: left;
+	margin: 5;
+	width: 70%;
 }
