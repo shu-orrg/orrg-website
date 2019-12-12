@@ -5,6 +5,9 @@ copyright = "The Outdoor Recreation Research Group"
 ## googleAnalytics = "UA-1XXXXXXX1-X"
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [outputFormats]
 [outputFormats.VCF]
   mediaType = "text/vcard"

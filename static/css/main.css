@@ -100,7 +100,7 @@ section {
     border-radius: 5px;
 }
 
-.post-top-meta {
+article.post-top-meta {
     margin-bottom: 2rem;
 }
 
@@ -274,27 +274,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .article-post {
-    font-weight: 700;
     margin-bottom: 1.5rem;
 }
 
-.article-post img.shadow {
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
-    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
-}
-
-.footer img {
-    margin-right: 5px;
-    max-height: 30px;
-}
-
-.article-post {
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-}
-
-.Article-Post img.shadow {
+.article-post .shadow {
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
     -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
@@ -390,24 +373,24 @@ iframe {
     top: 80px;
 }
 
-.social-icon{
+.social-icon {
     color: #000;
     color: rgba(0,0,0,.44);
     font-size:1.5rem;
 }
 
-.index-title{
+.index-title {
     color: #000;
     color: rgba(0,0,0,.84);
     margin-top:20px;
 }
 
-.index-sub{
+.index-sub {
     color: #000;
     color: rgba(0,0,0,.54);
 }
 
-.index-text{
+.index-text {
     color: #000;
     color: rgba(0,0,0,.44);
     margin-top:20px;
