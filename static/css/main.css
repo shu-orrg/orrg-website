@@ -507,23 +507,18 @@ iframe {
 }
 
 dl {
-	border-bottom: 1px solid #999;
-	float: left;
-	padding: 0;
+  display: grid;
+  grid-template-columns: max-content auto;
+  border-bottom: 1px solid #999
 }
 
 dt {
-	border-top: 1px solid #999;
-	clear: left;
-	float: left;
-	font-weight: bold;
-	margin: 5;
-	width: 30%;
+    border-top: 1px solid #999;
+    grid-column-start: 1;
+    padding-right: 10px;
 }
 
 dd {
-	border-top: 1px solid #999;
-	float: left;
-	margin: 5;
-	width: 70%;
+    border-top: 1px solid #999;
+    grid-column-start: 2;
 }
