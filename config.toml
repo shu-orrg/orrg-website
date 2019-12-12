@@ -45,9 +45,14 @@ suffixes = ["vcf"]
   identifier = "Collaboration"
   name = "Collaboration"
   url = "/collaboration/"
-  weight = 40
+  weight = 30
 [[menu.main]]
   identifier = "Blog"
   name = "Blog"
   url = "/Blog/"
+  weight = 40
+[[menu.main]]
+  identifier = "theoutdoorcity"
+  name = "#theoutdoorcity"
+  url = "https://www.theoutdoorcity.co.uk"
   weight = 50
