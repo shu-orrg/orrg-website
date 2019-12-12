@@ -99,7 +99,7 @@ article.post-top-meta {
     margin-bottom: 2rem;
 }
 
-.post-top-meta span {
+post-top-meta span {
     color: #000;
     color: rgba(0, 0, 0, .44);
     display: inline-block;
@@ -220,7 +220,7 @@ blockquote {
 
 .social {
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 ul.tags {
