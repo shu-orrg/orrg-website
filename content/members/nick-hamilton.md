@@ -8,6 +8,7 @@ expertise:
   - Quantative
   - Access to Populations
   - Project Management
+  - What works and why
 contact: n.hamilton@shu.ac.uk
 website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton'
 twitter: nickerless
