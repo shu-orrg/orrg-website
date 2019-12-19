@@ -38,6 +38,11 @@
             <div class="social">
               {{- partial "_shared/social.html" . -}}
             </div>
+            <div class="author-meta">
+              {{ range .Params.expertise }}
+                <a href="/expertise/{{ . | urlize }}"><span class="badge badge-secondary">{{ . }}</span></a>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>

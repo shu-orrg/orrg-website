@@ -30,6 +30,9 @@ suffixes = ["vcf"]
 [params.index]
   picture = "/images/mtb201-zps1e1bc12e-1-Copy-13-1392669635.jpg"
 
+[taxonomies]
+  expertise = "expertise"
+
 [menu]
 [[menu.main]]
   identifier = "About"

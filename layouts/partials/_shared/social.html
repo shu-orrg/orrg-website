@@ -1,15 +1,15 @@
 {{ with .Params.Website }}
-<a href="{{ . }}"><i class="fa fa-external-link-square-alt social-icon" aria-hidden="true"></i></a>
+<a href="{{ . }}" aria-label="Member Website"><i class="fa fa-external-link-square-alt social-icon" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Params.Linkedin }}
-<a href="https://linkedin.com/in/{{ . }}"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
+<a href="https://linkedin.com/in/{{ . }}" aria-label="Member LinkedIn"><i class="fab fa-linkedin social-icon" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Params.Twitter }}
-<a href="https://www.twitter.com/{{ . }}"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
+<a href="https://www.twitter.com/{{ . }}" aria-label="Member Twitter"><i class="fab fa-twitter social-icon" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Params.Contact }}
-<a href="mailto:{{ . }}"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
+<a href="mailto:{{ . }}" aria-label="Member Email"><i class="far fa-envelope social-icon" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .OutputFormats.Get "VCF" -}}
-<a href="{{ .Permalink }}"><i class="far fa-address-card social-icon"></i></a>
+<a href="{{ .Permalink }}" aria-label="Member VCard"><i class="far fa-address-card social-icon"></i></a>
 {{- end }}
