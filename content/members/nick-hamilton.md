@@ -4,7 +4,7 @@ role: Principal Research Fellow
 department: Centre for Sports Engineering Research (CSER)
 expertise:
   - Design Processes / Co-Production
-  - Quantative
+  - Quantatived
   - Access to Populations
   - Project Management
   - What works and why
@@ -18,6 +18,7 @@ outputs:
   - HTML
   - VCF
 ---
+
 Lead designer of the creative and consultancy team for CSER, expert in design, analysis and manufacture.
 
 #### Expertise
