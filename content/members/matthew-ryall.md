@@ -2,7 +2,8 @@
 name: Matthew Ryall
 role: Network
 department: Mexico86
-expertise: []
+expertise:
+  - Quantative
 contact: matthew@mexico86.co.uk
 website: 'https://www.mexico86.co.uk'
 twitter: '@mxco86'
