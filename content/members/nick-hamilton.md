@@ -1,7 +1,6 @@
 ---
 name: Nick Hamilton
 role: Principal Research Fellow
-institution: Sheffield Hallam University
 department: Centre for Sports Engineering Research (CSER)
 expertise:
   - Design Processes / Co-Production
@@ -9,26 +8,27 @@ expertise:
   - Access to Populations
   - Project Management
   - What works and why
+image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'
 contact: n.hamilton@shu.ac.uk
-website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton'
 twitter: nickerless
 linkedin: ndrhamilton
-image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'
+website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton'
 weight: 15
 outputs:
   - HTML
   - VCF
 ---
-
-Lead designer of the creative and consultancy team for CSER, expert in design,
-analysis and manufacture.
+Lead designer of the creative and consultancy team for CSER, expert in design, analysis and manufacture.
 
 #### Expertise
-Embedding physical activity in outdoor environments. Testing and analysis of outdoor equipment.
-Public engagement through art/exhibitions. Design of equipment for outdoor activity.
+
+Embedding physical activity in outdoor environments. Testing and analysis of outdoor equipment. Public engagement through art/exhibitions. Design of equipment for outdoor activity.
+
+
 Embedding PA in outdoor environments - digital
 
 #### Core Skills
+
 <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 130 100">
 	<style>
 		.axis {
@@ -51,6 +51,6 @@ Embedding PA in outdoor environments - digital
 </svg>
 
 #### More...
-Embedding physical activity in outdoor environments. Testing and analysis of outdoor equipment.
-Public engagement through art/exhibitions. Design of equipment for outdoor activity.
+
+Embedding physical activity in outdoor environments. Testing and analysis of outdoor equipment. Public engagement through art/exhibitions. Design of equipment for outdoor activity.
 Embedding PA in outdoor environments - digital
