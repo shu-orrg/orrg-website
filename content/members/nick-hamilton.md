@@ -4,10 +4,10 @@ role: Principal Research Fellow
 department: Centre for Sports Engineering Research (CSER)
 expertise:
   - Design Processes / Co-Production
-  - Quantatived
+  - Keyboards
+  - Quantative
   - Access to Populations
   - Project Management
-  - What works and why
 image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'
 contact: n.hamilton@shu.ac.uk
 twitter: nickerless
