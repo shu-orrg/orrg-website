@@ -1,8 +1,7 @@
 ---
 title: "Collaboration"
 description: ""
-type: "static"
-layout: "default"
+type: collaboration
 ---
 
 ## Call to Collaboration
