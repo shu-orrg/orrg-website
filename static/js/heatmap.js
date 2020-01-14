@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-const margin = { top: 50, right: 20, bottom: 20, left: 120 },
+const margin = { top: 20, right: 20, bottom: 20, left: 120 },
       width = 800,
       height = 675;
 
@@ -9,7 +9,7 @@ const svg = d3
       .classed("svg-container", true)
       .append("svg")
       .attr("preserveAspectRatio", "xMinYMin meet")
-      .attr("viewBox", "0 0 800 800")
+      .attr("viewBox", "0 0 875 875")
       .classed("svg", true)
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.bottom + ")")
