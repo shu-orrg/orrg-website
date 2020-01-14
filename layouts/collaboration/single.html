@@ -1,0 +1,28 @@
+{{ define "header"}}
+{{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+<div class="mainheading">
+    <h1 class="sitetitle">{{ .Params.Title }}</h1>
+    <p class="lead">
+    </p>
+</div>
+
+<div class="main-content">
+
+  Add some content here to introduce things
+
+  <!-- Create a div where the graph will take place -->
+  <div id="my_dataviz"></div>
+  <script type="application/javascript" src="/js/heatmap.js"></script>
+
+  Add some more content here
+
+</div>
+{{ end }}
+
+
+{{ define "footer"}}
+{{- partial "_shared/footer.html" . -}}
+{{ end }}

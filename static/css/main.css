@@ -522,3 +522,8 @@ dd {
     border-top: 1px solid #999;
     grid-column-start: 2;
 }
+
+svg {
+    display: block;
+    margin: auto;
+}

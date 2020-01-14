@@ -1,17 +1,50 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  {{ hugo.Generator }}
-  {{ with .Site.Params.logo }}
-  <link rel="icon" href="{{ . | urlize | relURL }}">
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  {{ hugo.Generator }} {{ with .Site.Params.logo }}
+  <link rel="icon" href="{{ . | urlize | relURL }}" />
   {{ end }}
   <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
-  {{ with .Site.Params.meta.description }}<meta name="description" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Bitter:700|Merriweather|Merriweather+Sans&display=swap" rel="stylesheet">
-  <link href="{{ "/css/main.css" | urlize | relURL }}" rel="stylesheet">
-  <link href="{{ "/blog/index.xml" | urlize | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{ with .Site.Params.meta.description }}
+  <meta name="description" content="{{ . }}" />
+  {{ end }} {{ with .Site.Params.meta.keywords }}
+  <meta name="keywords" content="{{ . }}" />
+  {{ end }}
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Bitter:700|Merriweather|Merriweather+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link href="{{ "/css/main.css" | urlize | relURL }}" rel="stylesheet"> <link
+  href="{{ "/blog/index.xml" | urlize | relURL }}" rel="alternate"
+  type="application/rss+xml" title="{{ .Site.Title }}">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <!-- Load d3.js and colour palettes-->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+  <!-- Web components dependencies/polyfills -->
+  <script src="webcomponents/webcomponents-loader.js"></script>
+  <script>
+    if (!window.customElements) {
+      document.write("<!--");
+    }
+  </script>
+  <script src="webcomponents/custom-elements-es5-adapter.js"></script>
+  <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
 </head>
