@@ -1,16 +1,21 @@
 // set the dimensions and margins of the graph
-const margin = { top: 20, right: 40, bottom: 20, left: 100 },
-      width = 950,
+const margin = { top: 50, right: 20, bottom: 20, left: 120 },
+      width = 800,
       height = 675;
 
 // append the svg object to the body of the page
 const svg = d3
       .select("#my_dataviz")
+      .classed("svg-container", true)
       .append("svg")
-      .attr("width", width)
-      .attr("height", height + 175)
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 800 800")
+      .classed("svg", true)
       .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.bottom + ")");
+      .attr("transform", "translate(" + margin.left + "," + margin.bottom + ")")
+      .attr("width", width)
+      .attr("height", height + 200);
+
 
 const genName = (fullName) => {
     const [first, last] = fullName.split("-");
