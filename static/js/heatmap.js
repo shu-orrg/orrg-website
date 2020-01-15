@@ -24,6 +24,13 @@ const genName = (fullName) => {
     return `${ucFirst} ${ucLast}`;
 }
 
+const linkify = (fullName) => {
+  const [first, last] = fullName.split(" ");
+    const lcFirst = first.charAt(0).toLowerCase() + first.slice(1);
+    const lcLast = last.charAt(0).toLowerCase() + last.slice(1);
+    return `/members/${lcFirst}-${lcLast}`;
+}
+
 // Read the data
 d3.csv("/data/orrg-expertise.csv", function(data) {
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
@@ -66,12 +73,21 @@ d3.csv("/data/orrg-expertise.csv", function(data) {
           .range([650, 0])
           .domain(myVars)
           .padding(0.1);
-    svg
-        .append("g")
-        .style("font-size", 15)
-        .call(d3.axisLeft(y).tickSize(0))
-        .select(".domain")
-        .remove();
+
+    const yAxisGenerator = d3.axisLeft(y).tickSize(0);
+
+    const yAxis = svg
+          .append("g")
+          .style("font-size", 15)
+          .attr("class", "axislink")
+          .call(yAxisGenerator)
+          .select(".domain")
+          .remove();
+
+    const yLinks = d3.selectAll(".axislink text");
+    yLinks.on("click", (name) => {
+        document.location.href = linkify(name);
+    });
 
     // Build color scale
     const myColor = d3

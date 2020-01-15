@@ -538,3 +538,7 @@ svg {
   top: 10px;
   left: 0;
 }
+
+.axislink{
+  cursor: pointer;
+}
