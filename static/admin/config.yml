@@ -36,10 +36,16 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
-          - {label: "Image", name: "image", widget: "image", required: false}
           - {label: "Content", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-          - {label: "Type", name: "type", widget: "hidden", default: "static"}
+          - {label: "Type", name: "type", widget: "hidden", default: "collaboration"}
+      - file: "content/collaboration/content2.md"
+        label: "Collaboration Bottom Content"
+        name: "collaboration_second"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
       - file: "content/members_bundle/index.md"
         label: "Members Page"
         name: "members"

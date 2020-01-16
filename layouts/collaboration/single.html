@@ -11,13 +11,17 @@
 
 <div class="main-content">
 
-  Add some content here to introduce things
+  {{ .Content }}
 
   <!-- Create a div where the graph will take place -->
   <div id="my_dataviz"></div>
   <script type="application/javascript" src="/js/heatmap.js"></script>
 
-  Add some more content here
+  {{ $bundle := .Site.GetPage "collaboration" }}
+  {{ $content := $bundle.Resources.Match "content2.md" }}
+  {{ range $content }}
+  {{ .Content }}
+  {{ end }}
 
 </div>
 {{ end }}
