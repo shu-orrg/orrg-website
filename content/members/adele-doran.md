@@ -1,10 +1,15 @@
 ---
-name: "Adele Doran"
-role: "Member"
-department: "Sheffield Business School (SBS)"
-expertise: ["Adventure Tourism"]
-contact: "a.doran@shu.ac.uk"
-image: "/images/person1.png"
+name: Adele Doran
+role: Member
+department: Sheffield Business School (SBS)
+expertise:
+  - Literature Review
+  - Qualitative
+  - Mixed Methods
+  - Data Collection
+  - Data Analysis
+contact: a.doran@shu.ac.uk
+image: /images/person1.png
 weight: 70
 ---
 

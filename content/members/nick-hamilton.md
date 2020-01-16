@@ -8,11 +8,17 @@ twitter: nickerless
 linkedin: ndrhamilton
 website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton'
 weight: 15
-expertise: [ Plants, Quantitative ]
+expertise:
+  - Design Processes / Co-Production
+  - Quantative
+  - Access to Populations
+  - Project Management
+  - What works and why
 outputs:
   - HTML
   - VCF
 ---
+
 Lead designer of the creative and consultancy team for CSER, expert in design, analysis and manufacture.
 
 #### Expertise
