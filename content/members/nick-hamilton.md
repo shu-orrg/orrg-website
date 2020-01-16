@@ -8,6 +8,7 @@ twitter: nickerless
 linkedin: ndrhamilton
 website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/nick-hamilton'
 weight: 15
+expertise: [ Plants, Quantitative ]
 outputs:
   - HTML
   - VCF

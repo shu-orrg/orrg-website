@@ -30,7 +30,7 @@ collections:
           - {label: "Content", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Type", name: "type", widget: "hidden", default: "static"}
-      - file: "content/collaboration.md"
+      - file: "content/collaboration/index.md"
         label: "Collaboration Page"
         name: "collaboration"
         fields:
@@ -40,7 +40,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Type", name: "type", widget: "hidden", default: "collaboration"}
       - file: "content/collaboration/content2.md"
-        label: "Collaboration Bottom Content"
+        label: "Collaboration (Second)"
         name: "collaboration_second"
         fields:
           - {label: "Title", name: "title", widget: "string"}
