@@ -19,7 +19,7 @@ a:hover {
 p {
     color: #000;
     color: rgba(0, 0, 0, .8);
-    font-family: Merriweather;
+    font-family: Merriweather Sans;
     font-size: 1.1rem;
     line-height: 1.84;
 }
