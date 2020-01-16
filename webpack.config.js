@@ -1,7 +1,10 @@
 var path = require('path');
 module.exports = {
-    entry: './src/index.ts',
-    module: {
+  entry: {
+    main: './src/index.ts',
+    heatmap:'./src/heatmap.ts'
+  },
+  module: {
         rules: [
             {
                 test: /\.tsx?$/,
@@ -14,7 +17,7 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js']
     },
     output: {
-        filename: 'main.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'static/js')
     }
 };
