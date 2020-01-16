@@ -111,6 +111,24 @@ post-top-meta span {
     margin-top: 5px;
 }
 
+span.post-read-more {
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+
+}
+
+span.post-name, span.post-date {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+span.post-read-more {
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+}
+
 .mediumnavigation .form-control {
     border: 1px solid #000;
     border: 1px solid rgba(0, 0, 0, 0.04);
@@ -232,6 +250,7 @@ ul.tags {
 ul.tags li {
     display: inline-block;
     font-size: 0.9rem;
+    padding-top: 10px;
 }
 
 ul.tags li a {
