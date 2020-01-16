@@ -32,6 +32,7 @@ suffixes = ["vcf"]
 
 [taxonomies]
   expertise = "expertise"
+  tags = "tags"
 
 [menu]
 [[menu.main]]
