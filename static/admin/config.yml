@@ -43,13 +43,14 @@ collections:
         label: "Collaboration (Second)"
         name: "collaboration_second"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Headless", name: "headless", widget: "hidden", default: "true"}
           - {label: "Content", name: "body", widget: "markdown"}
 
       - file: "content/members_bundle/index.md"
         label: "Members Page"
         name: "members"
         fields:
+          - {label: "Headless", name: "headless", widget: "hidden", default: "true"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
   - name: "blog"    # Used in routes, e.g., /admin/collections/blog
