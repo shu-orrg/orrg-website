@@ -9,13 +9,19 @@
     "build:webpack": "NODE_ENV=production webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mexico86 Systems",
   "license": "ISC",
   "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "copy-webpack-plugin": "^5.1.1",
+    "csslint": "^1.0.5",
+    "prettier": "^1.19.1",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "d3": "4.13.0"
+  }
 }

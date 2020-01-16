@@ -15,13 +15,13 @@ const imageList = [
   "7e7b7911-1dd2-4196-8b62-dd768ccdb00a/-/scale_crop/1200x550/center/",
   "93faf9e5-602d-43ee-af88-2d86e98b710b/-/scale_crop/1200x550/center/",
   "2d6b9bea-57df-496b-b515-0c45ec0503da/-/scale_crop/1200x550/center/",
-  "4e431b2f-af9d-4a6c-b913-811ed26b76f3/-/scale_crop/1200x550/center/",
+  "4e431b2f-af9d-4a6c-b913-811ed26b76f3/-/scale_crop/1200x550/center/"
 ];
 
-const imageIndex = (new Date()).getDate() % imageList.length;
+const imageIndex = new Date().getDate() % imageList.length;
 
-const selectImage = () : HTMLImageElement => {
-  const element = document.createElement('img');
+const selectImage = (): HTMLImageElement => {
+  const element = document.createElement("img");
   element.setAttribute("src", imageBase + imageList[imageIndex]);
   element.setAttribute("class", "img-fluid");
 
@@ -29,6 +29,5 @@ const selectImage = () : HTMLImageElement => {
 };
 
 const imageElement = document.getElementsByClassName("index-image");
-console.log(imageElement[0]);
 
 imageElement[0].appendChild(selectImage());
