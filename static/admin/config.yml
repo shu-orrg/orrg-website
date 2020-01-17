@@ -6,9 +6,10 @@ backend:
     - admin
 publish_mode: editorial_workflow
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: UPLOADCARE_PUBLIC_KEY
+    cloud_name: mexico86
+    api_key: CLOUDINARY_PUBLIC_KEY
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
