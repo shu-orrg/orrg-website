@@ -2,7 +2,7 @@
 title: Nick's first Test
 date: 2019-07-29T12:44:11.517Z
 image: 'https://ucarecdn.com/0316a0bb-e329-4bba-aec4-4ced8941dd46/'
-author: Nick Hamilton
+author: Adele Doran
 tags:
   - The best
   - only gets better from here
