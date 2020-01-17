@@ -44,6 +44,7 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "hidden"}
       - {label: "Role", name: "role", widget: "hidden"}
+      - {label: "Institution", name: "institution", widget: "string"}
       - {label: "Department", name: "department", widget: "hidden"}
       - {label: "Expertise", name: "expertise", widget: "hidden"}
       - {label: "Image", name: "image", widget: "hidden" }
