@@ -22,12 +22,19 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      # - label: "Author"
+      #   name: "author"
+      #   widget: "relation"
+      #   collection: "members"
+      #   searchFields: ["name"]
+      #   valueField: "name"
       - label: "Author"
         name: "author"
-        widget: "relation"
-        collection: "members"
-        searchFields: ["name"]
-        valueField: "name"
+        widget: "select"
+        options: ["Nick Hamilton", "Maxine Gregory"]
+        default: "Nick Hamilton"
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Content", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "members"
