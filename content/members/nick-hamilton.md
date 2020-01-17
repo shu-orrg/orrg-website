@@ -3,7 +3,8 @@ name: Nick Hamilton
 role: Principal Research Fellow
 institution: Sheffield Hallam University
 department: Centre for Sports Engineering Research (CSER)
-image: 'https://ucarecdn.com/53751bff-26e7-4cca-8ef8-c819d2f54beb/'
+image: >-
+  https://res.cloudinary.com/mexico86/image/upload/v1579265782/ORRG/Nick_Hamilton_203017_hf2jmx.jpg
 contact: n.hamilton@shu.ac.uk
 twitter: nickerless
 linkedin: ndrhamilton
