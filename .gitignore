@@ -1,0 +1,5 @@
+resources
+node_modules
+static/js/*
+public
+deploy.org

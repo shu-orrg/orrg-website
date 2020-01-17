@@ -1,0 +1,33 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    <div class="mainheading">
+      {{ with .Site.GetPage "/members_bundle" }}
+      <h1 class="sitetitle">{{ .Title }}</h1>
+      {{ .Content }}
+      {{ end }}
+    </div>
+    <div class="main-content">
+        <section class="members">
+            <div class="section-title">
+            </div>
+            <div class="row listrecent">
+              {{ $post_paginator := .Paginate (.Pages) 12 }}
+                {{ range $post_paginator.Pages }}
+                  {{- partial "list-partials/member-box.html" . -}}
+                {{end}}
+            </div>
+        </section>
+        {{- partial "list-partials/pagination.html" $post_paginator -}}
+    </div>
+    <div class="social">
+      {{- partial "_shared/social.html" . -}}
+    </div>
+    {{ end }}
+
+
+{{ define "footer"}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}

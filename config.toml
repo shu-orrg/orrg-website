@@ -1,0 +1,59 @@
+baseURL = ""
+title = "The Outdoor Recreation Research Group"
+summaryLength = 25
+copyright = "The Outdoor Recreation Research Group"
+## googleAnalytics = "UA-1XXXXXXX1-X"
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[outputFormats]
+[outputFormats.VCF]
+  mediaType = "text/vcard"
+  isPlainText = true
+  permalinkable = true
+  baseName = "vcard"
+
+[mediaTypes]
+[mediaTypes."text/vcard"]
+suffixes = ["vcf"]
+
+[params]
+  logo = "/images/orrg_logo.png"
+  description ="The Outdoor Recreation Research Group"
+
+[params.meta]
+  keywords = "Outdoor Recreation"
+  description ="The Outdoor Recreation Research Group"
+
+[taxonomies]
+  expertise = "expertise"
+  tags = "tags"
+
+[menu]
+[[menu.main]]
+  identifier = "About"
+  name = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  identifier = "Members"
+  name = "Members"
+  url = "/members/"
+  weight = 20
+[[menu.main]]
+  identifier = "Collaboration"
+  name = "Collaboration"
+  url = "/collaboration/"
+  weight = 30
+[[menu.main]]
+  identifier = "Blog"
+  name = "Blog"
+  url = "/Blog/"
+  weight = 40
+[[menu.main]]
+  identifier = "theoutdoorcity"
+  name = "#theoutdoorcity"
+  url = "https://www.theoutdoorcity.co.uk"
+  weight = 50

@@ -1,0 +1,95 @@
+---
+backend:
+  name: git-gateway
+  branch: master
+  accept_roles:
+    - admin
+publish_mode: editorial_workflow
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: mexico86
+    api_key: CLOUDINARY_PUBLIC_KEY
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/homepage/index.md"
+        label: "Home Page"
+        name: "homepage"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/about.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Type", name: "type", widget: "hidden", default: "static"}
+      - file: "content/collaboration/index.md"
+        label: "Collaboration Page"
+        name: "collaboration"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Type", name: "type", widget: "hidden", default: "collaboration"}
+      - file: "content/collaboration/content2.md"
+        label: "Collaboration (Second)"
+        name: "collaboration_second"
+        fields:
+          - {label: "Headless", name: "headless", widget: "hidden", default: "true"}
+          - {label: "Content", name: "body", widget: "markdown"}
+
+      - file: "content/members_bundle/index.md"
+        label: "Members Page"
+        name: "members"
+        fields:
+          - {label: "Headless", name: "headless", widget: "hidden", default: "true"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+  - name: "blog"    # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts"   # Used in the UI
+    folder: "content/blog"  # The path to the folder where posts are stored
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"   # Filename template
+    fields:  # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      # - label: "Author"
+      #   name: "author"
+      #   widget: "relation"
+      #   collection: "members"
+      #   searchFields: ["name"]
+      #   valueField: "name"
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options: ["Nick Hamilton", "Maxine Gregory"]
+        default: "Nick Hamilton"
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "members"
+    label: "Members"
+    folder: "content/members"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Department", name: "department", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", default: "/images/person1.png", required: false}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
+      - {label: "Website", name: "website", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
+      - {label: "Content", name: "body", widget: "markdown"}

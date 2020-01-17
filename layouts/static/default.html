@@ -1,0 +1,30 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{- partial "_shared/title.html" . -}}
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 pl-0">
+                  <div class="social">
+                    {{- partial "_shared/social.html" . -}}
+                  </div>
+                </div>
+
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="article-post">
+                        {{ .Content}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {{- partial "list-partials/pagination.html" -}}
+    </div>
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}

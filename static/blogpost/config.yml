@@ -1,0 +1,56 @@
+---
+backend:
+  name: git-gateway
+  branch: master
+  accept_roles:
+    - blogger
+publish_mode: editorial_workflow
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: mexico86
+    api_key: CLOUDINARY_PUBLIC_KEY
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "blog"    # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts"   # Used in the UI
+    folder: "content/blog"  # The path to the folder where posts are stored
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"   # Filename template
+    fields:  # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      # - label: "Author"
+      #   name: "author"
+      #   widget: "relation"
+      #   collection: "members"
+      #   searchFields: ["name"]
+      #   valueField: "name"
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options: ["Nick Hamilton", "Maxine Gregory"]
+        default: "Nick Hamilton"
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "members"
+    label: "Members"
+    folder: "content/members"
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "hidden"}
+      - {label: "Role", name: "role", widget: "hidden"}
+      - {label: "Department", name: "department", widget: "hidden"}
+      - {label: "Expertise", name: "expertise", widget: "hidden"}
+      - {label: "Image", name: "image", widget: "hidden" }
+      - {label: "Contact", name: "contact", widget: "hidden"}
+      - {label: "Twitter", name: "twitter", widget: "hidden"}
+      - {label: "LinkedIn", name: "linkedin", widget: "hidden"}
+      - {label: "Website", name: "website", widget: "hidden"}
+      - {label: "Weight", name: "weight", widget: "hidden"}
+      - {label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML", "VCF"]}
+      - {label: "Content", name: "body", widget: "hidden"}

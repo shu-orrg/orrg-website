@@ -1,0 +1,68 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{- partial "_shared/title.html" . -}}
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2 pl-0">
+                  <div class="social">
+                    {{- partial "_shared/social.html" . -}}
+                  </div>
+                </div>
+
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                      {{ $users    := where .Site.Pages "Type" "members" }}
+                      {{ $username := where $users "Params.name" .Params.author }}
+                      {{ range $users | intersect $username }}
+                      <div class="row post-top-meta">
+                        <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                          <img class="author-thumb" src="{{ .Params.image }}" alt="{{ .Params.name }}">
+                        </div>
+                        <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
+                          <a target="_blank" class="link-dark">{{ .Params.name }}</a><br>
+                          <span class="author-description">
+                            {{ .Params.role }}</span><br />
+                          {{end}}
+                          <span class="author-description">
+                            <i class="far fa-star"></i>
+                            {{ dateFormat "Jan 2, 2006" .PublishDate }}
+                            <i class="far fa-clock clock"></i>
+                            {{ .ReadingTime }} min read
+                          </span>
+                        </div>
+                      </div>
+
+                      <h1 class="posttitle">{{ .Title }}</h1>
+                    </div>
+                    <div class="after-post-tags">
+                      <ul class="tags">
+                        {{ range .Params.tags }}
+                        <li>
+                          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        </li>
+                        {{ end }}
+                      </ul>
+                    </div>
+
+                    {{with .Params.image}}
+                        <img class="featured-image img-fluid" src="{{ . }}" alt="thumbnail for this post">
+                    {{end}}
+
+                    <div class="article-post">
+                        {{ .Content}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}

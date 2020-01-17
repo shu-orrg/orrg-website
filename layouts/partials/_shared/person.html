@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 pl-0">
+    </div>
+    <div class="col-md-9 flex-first flex-md-unordered">
+      <div class="mainheading">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+            {{with .Params.image}}
+            <img
+              class="author-thumb"
+              src="{{ . }}"
+              alt="thumbnail for this person"
+            />
+            {{end}}
+          </div>
+          <div class="col-xs-12 col-md-9 col-lg-10 text-md-left md-nopad-left">
+            <dl>
+              <dt>
+                <span>Institution: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Institution }}</span>
+              </dd>
+              <dt>
+                <span>Department: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Department }}</span>
+              </dd>
+              <dt>
+                <span>Role: </span>
+              </dt>
+              <dd>
+                <span class="">{{ .Params.Role }}</span>
+              </dd>
+            </dl>
+            <div class="social">
+              {{- partial "_shared/social.html" . -}}
+            </div>
+            <div class="author-meta">
+              {{ range .Params.expertise }}
+                <a href="/expertise/{{ . | urlize }}"><span class="badge badge-secondary">{{ . }}</span></a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-post">
+        {{ .Content}}
+      </div>
+    </div>
+  </div>
+</div>

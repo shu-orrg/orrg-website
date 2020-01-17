@@ -1,0 +1,26 @@
+<!-- begin post -->
+<div class="col-md-4 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="{{ .URL }}">
+                {{with .Params.image}}
+                    <img class="img-fluid" src="{{ . }}" alt="A thumbnail image">
+                {{end}}
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title"><a class="text-dark" href="{{ .URL }}">{{ .Title }}</a></h2>
+            <p class="card-text">{{ .Summary }}</p>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+              <span class="author-meta">
+                <span class="post-name">{{ .Params.Author }}</span><br/>
+                <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
+              </span>
+              <span class="post-read-more"><a href="{{ .URL }}" title="Read Story"><i class="far fa-bookmark social-icon"></i></a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
