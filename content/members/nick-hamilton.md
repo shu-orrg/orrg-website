@@ -13,6 +13,12 @@ weight: 15
 outputs:
   - HTML
   - VCF
+expertise:
+  - Design Processes / Co-Production
+  - Quantative
+  - Access to Populations
+  - Project Management
+  - What works and why
 ---
 
 Lead designer of the creative and consultancy team for CSER, expert in design, analysis and manufacture.
