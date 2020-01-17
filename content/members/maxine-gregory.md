@@ -1,10 +1,11 @@
 ---
 name: Maxine Gregory
 role: Chair
+institution: Sheffield Hallam University
 department: Sport Industry Research Centre (SIRC)
-expertise: []
+image: >-
+  https://res.cloudinary.com/mexico86/image/upload/v1579265836/ORRG/Maxine_Gregory_122943_p8eugc.jpg
 contact: m.gregory@shu.ac.uk
-image: 'https://ucarecdn.com/1285407a-ab99-4c61-9da7-7ca3915306b3/'
 weight: 10
 ---
 
