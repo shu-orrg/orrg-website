@@ -73,7 +73,7 @@ collections:
         name: "author"
         widget: "select"
         options: ["Nick Hamilton", "Maxine Gregory"]
-        default: ["Nick Hamilton"]
+        default: "Nick Hamilton"
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "members"
