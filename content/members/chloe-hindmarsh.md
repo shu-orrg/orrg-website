@@ -1,6 +1,6 @@
 ---
 name: Chloe Hindmarsh
-role: Schools Centred Initial Teacher Traning Lead
+role: Schools Centred Initial Teacher Training Lead
 institution: Sheffield Hallam University
 department: Social Sciences and Humanities
 image: >-
