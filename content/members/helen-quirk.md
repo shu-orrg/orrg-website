@@ -8,7 +8,12 @@ weight: '28'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Qualitative
+  - Data Collection
+  - Health
+  - Literature Review
+  - Mixed Methods
 ---
-
 
 My interests are in the promotion of physical activity, exercise, health and wellbeing in clinical and non-clinical populations.

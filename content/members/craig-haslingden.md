@@ -10,7 +10,14 @@ weight: '33'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Education
+  - Sport Coaching
+  - Qualitative
+  - Connections
+  - Health
 ---
+
 <!--StartFragment-->
 
 I joined the Academy of Sport and Physical Activity in January 2018 arriving from a nineteen year teaching career in mainly secondary education with subject specialisms in physical education and geography. A proportion of this time was spent at both middle management and senior leadership levels.

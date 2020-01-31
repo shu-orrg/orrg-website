@@ -9,7 +9,14 @@ weight: '29'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Literature Review
+  - Qualitative
+  - Mixed Methods
+  - Data Collection
+  - Data Analysis
 ---
+
 My academic background lies in tourism and recreation studies and I have taught at both undergraduate and postgraduate levels on tourism, recreation and management modules. My research focuses on the experiences of adventure tourists and adventure recreationalists. 
 
 My primary research focuses on the experiences of female climbers and mountaineers, the constraints they encounter and negotiate when accessing and participating and the benefits they gain from these experiences. Additional projects include an investigation of women’s representation on adventure social media and the impact adventure activities have on women’s well-being. 

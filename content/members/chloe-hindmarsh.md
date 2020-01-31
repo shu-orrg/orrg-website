@@ -10,5 +10,12 @@ weight: '33'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Education
+  - Connections
+  - Green Space
+  - Design Processes / Co-Production
+  - Project Management
 ---
+
 SCITT Lead for SIOE and Senior Lecturer in Post 16 Education and Training.

@@ -10,7 +10,14 @@ weight: '50'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Project Management
+  - Data Collection
+  - Connections
+  - Quantative
+  - Literature Review
 ---
+
 <!--StartFragment-->
 
 David Curtis is a principal research fellow in the Centre for Sports Engineering Research, which is part of the Academy of Sport & Physical Activity at Sheffield Hallam University.

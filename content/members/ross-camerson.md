@@ -10,7 +10,14 @@ weight: '33'
 outputs:
   - HTML
   - VCF
+expertise:
+  - Green Space
+  - Plants
+  - Quantative
+  - Data Collection
+  - Project Management
 ---
+
 <!--StartFragment-->
 
 I am a landscape horticulturalist specializing in the use and value of landscape plants. My current research interests centre around green infrastructure and climate change mitigation, with a strong emphasis on providing recommendations on plant species choice with respect to eco-system function (city cooling, thermal insulation, flood tolerance, biodiversity enhancement, etc.). This includes currently supervising PhD projects on improving the thermal performance of buildings through appropriate plant selection e.g. on both green walls and green roofs.\

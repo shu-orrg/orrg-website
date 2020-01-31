@@ -7,7 +7,12 @@ image: >-
   https://res.cloudinary.com/mexico86/image/upload/v1579265836/ORRG/Maxine_Gregory_122943_p8eugc.jpg
 contact: m.gregory@shu.ac.uk
 weight: 10
-expertise: []
+expertise:
+  - 'Evaluation '
+  - Literature Review
+  - Qualitative
+  - Mixed Methods
+  - Data Collection
 ---
 
 ## Core Expertise
