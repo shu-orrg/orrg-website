@@ -28,4 +28,4 @@ Eigenschenk, B., Thomann, A., McClure, M., Davies, L., Gregory, M., Dettweiler, 
 
 Further publications are anticipated throughout 2020.
 
-![](https://res.cloudinary.com/mexico86/image/upload/v1581606573/devon-divine-fYMcmGrRuCk-unsplash_fwqxax.jpg)
+![Photo by Devon Divine on Unsplash](https://res.cloudinary.com/mexico86/image/upload/v1581606573/devon-divine-fYMcmGrRuCk-unsplash_fwqxax.jpg)
