@@ -5,16 +5,12 @@ institution: Sheffield Hallam University
 department: Tourism & Recreation
 image: >-
   https://res.cloudinary.com/mexico86/image/upload/v1580488336/adle_doran_yzxp2o.jpg
+contact: a.doran@shu.ac.uk
+twitter: '@adele_doran'
 weight: '29'
 outputs:
   - HTML
   - VCF
-expertise:
-  - Literature Review
-  - Qualitative
-  - Mixed Methods
-  - Data Collection
-  - Data Analysis
 ---
 
 My academic background lies in tourism and recreation studies and I have taught at both undergraduate and postgraduate levels on tourism, recreation and management modules. My research focuses on the experiences of adventure tourists and adventure recreationalists. 
