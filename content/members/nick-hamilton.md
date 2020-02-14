@@ -13,7 +13,14 @@ weight: 15
 outputs:
   - HTML
   - VCF
+expertise:
+  - Design Processes / Co-Production
+  - Quantative
+  - Access to Populations
+  - Project Management
+  - What works and why
 ---
+
 #### Expertise
 
 * Embedding physical activity in outdoor environments.  
