@@ -4,7 +4,7 @@ role: PG Research Director and Senior Lecturer
 institution: University of Sheffield
 department: Department of Landscape Architecture
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580489455/nicola260_bvta15.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580489455/Mug%20Shots/nicola260_bvta15.jpg
 weight: '34'
 outputs:
   - HTML

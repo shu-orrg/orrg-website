@@ -4,7 +4,7 @@ role: 'Senior Lecturer Landscape Management, Ecology & Design'
 institution: University of Sheffield
 department: Department of Landscape Architecture
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580489724/ross260_jellkj.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580489724/Mug%20Shots/ross260_jellkj.jpg
 website: 'https://www.sheffield.ac.uk/landscape/staff/profiles/rcameron'
 weight: '33'
 outputs:

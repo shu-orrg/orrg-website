@@ -4,7 +4,7 @@ role: Principal Research Fellow
 institution: 'Sheffield Hallam University '
 department: Centre for Sports Engineering Research
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580489117/david-curtis-203048_r05ulc.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580489117/Mug%20Shots/david-curtis-203048_r05ulc.jpg
 website: 'https://www.shu.ac.uk/about-us/our-people/staff-profiles/david-curtis'
 weight: '50'
 outputs:

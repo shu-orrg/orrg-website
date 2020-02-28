@@ -3,7 +3,8 @@ name: Lizzie Freeman
 role: Lecturer In Psychology
 institution: Sheffield Hallam University
 department: 'Psychology, Sociology and Politics'
-image: 'https://res.cloudinary.com/mexico86/image/upload/v1580489954/0_k5heay.jpg'
+image: >-
+  https://res.cloudinary.com/mexico86/image/upload/v1580489954/Mug%20Shots/0_k5heay.jpg
 weight: '33'
 outputs:
   - HTML

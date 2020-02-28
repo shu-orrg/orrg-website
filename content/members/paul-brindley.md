@@ -4,7 +4,7 @@ role: Lecturer
 institution: University of Sheffield
 department: Department of Landscape Architecture
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580488938/brindley260_sl8idi.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580488938/Mug%20Shots/brindley260_sl8idi.jpg
 website: 'https://www.sheffield.ac.uk/landscape/staff/profiles/pbrindley/profilepub'
 weight: '35'
 outputs:

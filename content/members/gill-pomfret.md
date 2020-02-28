@@ -4,7 +4,7 @@ role: Senior Lecturer
 institution: Sheffield Hallam University
 department: Tourism & Recreation
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580489599/gill-pomfret-116176_kuczn7.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580489599/Mug%20Shots/gill-pomfret-116176_kuczn7.jpg
 weight: '35'
 outputs:
   - HTML

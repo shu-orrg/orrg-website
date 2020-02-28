@@ -4,7 +4,7 @@ role: Senior Lecturer
 institution: Sheffield Hallam University
 department: Social Sciences and Humanities
 image: >-
-  https://res.cloudinary.com/mexico86/image/upload/v1580487848/Naomi_Holmes_224869_cyvpxx.jpg
+  https://res.cloudinary.com/mexico86/image/upload/v1580487848/Mug%20Shots/Naomi_Holmes_224869_cyvpxx.jpg
 weight: '31'
 outputs:
   - HTML
